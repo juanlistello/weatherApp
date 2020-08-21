@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>Weather App</title>
+</head>
+<body>
+
+
+<div class="container">
+
+  <img id="bg">
+
+  <form action="#" class="search">
+    <input id="input-city" type="text" placeholder="Ingresa tu Ciudad" autocomplete="off">
+
+    <button id="submit" type="submit"><i class="fas fa-search-location fa-2x search-location"></i></button>
+  </form>
+  
+
+
+  
+  <!-- Weather info -->
+ <div class="weather-data">
+    <div>
+      <h2 id="city"></h2>
+    </div>
+    
+    <div class="clima-icono">
+      <img id="img">
+      <h3 class="clima"> </h3>
+    </div>
+
+    <div class="temp-info">
+      <h1 id="temp"></h1>
+
+      <div class="info-3">
+        <h2 class="humedad"></h2>
+        <h2 class="viento"></h2>
+        <h2 class="s-termica"></h2>
+      </div>
+    </div>
+  
+  </div>
+    
+    
+
+  </div>
+
+
+<!-- JS Scripts -->
+
+
+<script src="fetch.js"></script>
+<script src="ui.js"></script>
+<script src="storage.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

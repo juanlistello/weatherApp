@@ -1,0 +1,135 @@
+/* reset */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo Tamma 2', cursive;
+  color: rgba(46, 49, 49, 1);
+  
+}
+
+/* contenedores */
+body {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 960px;
+  min-width: 375px;
+  padding-right: 10px;
+  padding-left:  10px;
+}
+
+.container {
+  margin: 1rem 0;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.4);
+  
+}
+
+
+/* search bar */
+.search {
+  text-align: center;
+  
+  
+}
+.search-location {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* weather data */
+.weather-data{
+  padding: 1rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-top: 12rem; 
+  border-top-right-radius: 60%;
+  
+}
+
+.clima-icono {
+    display: flex;
+    align-items: center; 
+}
+.clima {
+  font-weight: 100;
+  margin-top: 0.2rem;
+  font-size: 1.5rem;
+}
+#img {
+ height: 50px;
+}
+
+
+.temp-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#temp {
+  padding-top: 1rem;
+  font-size: 7rem;
+  font-weight: 100;
+}
+.info-3 {
+  padding: 1rem 0rem;
+  margin-left: 1rem;
+  font-size: 0.7rem;
+  font-weight: 100;
+  
+
+}
+#city {
+  padding-top: 1rem;
+  padding-left: 1rem; 
+  font-size: 2rem;
+  
+}
+
+#input-city {
+  font-size: 1.3rem;
+  position: relative;
+  color: white;
+  width: 80%;
+  padding: 0.2rem 0;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  transition: 0.5s;
+  background-color: transparent;
+}
+
+#input-city:focus {
+  outline: none;
+
+}
+
+#submit {
+  right: 45px;
+  color: white;
+  background-color: transparent;
+  padding: 0.5rem;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  transition: 0.5s ;
+}
+
+#submit:focus {
+  outline: none;
+}
+
+::placeholder { 
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.3rem;
+}
+
+
+/* iconos */
